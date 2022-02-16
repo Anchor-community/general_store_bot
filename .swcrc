@@ -1,0 +1,21 @@
+{
+  "module": {
+    "type": "commonjs",
+    "strictMode": true
+  },
+  "minify": true,
+  "jsc": {
+    "minify": {
+      "compress": true
+    },
+    "parser": {
+      "syntax": "typescript",
+      "tsx": false
+    },
+    "target": "es2021",
+    "baseUrl": "src",
+    "paths": {
+      "~/*": ["./*"]
+    }
+  }
+}

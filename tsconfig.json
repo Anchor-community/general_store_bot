@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2021",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "~/*": ["*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"],
+  "ts-node": {
+    "swc": true
+  }
+}
