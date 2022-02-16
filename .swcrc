@@ -1,7 +1,6 @@
 {
   "module": {
     "type": "commonjs",
-    "strictMode": true
   },
   "minify": true,
   "jsc": {
